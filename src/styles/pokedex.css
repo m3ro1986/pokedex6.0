@@ -1,0 +1,27 @@
+.pokedexBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokedexBox header {
+    height: 10vh;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.pokedexBox main{
+    min-height: 90vh;
+    max-width: 1280px;
+    /* margin: 0 auto; */
+    padding: 2rem 0;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    grid-template-columns: repeat( auto-fit, minmax( 150px, 1fr));
+    gap: 1rem;
+}
